@@ -1,0 +1,28 @@
+$(document).ready(function(){
+	$("#beneficiaro").validate({
+		rules:{
+			nombre:"required",
+			rif:"required",
+			cod_tlf:"required",
+			telefono:{
+				required:true,
+				number:true
+			},
+			direccion:"required",
+			contacto:"required",
+			tipo:"required"
+		},
+		messages:{
+			nombre:"",
+			rif:"",
+			cod_tlf:"",
+			telefono:{
+				required:"",
+				number:""
+			},
+			direccion:"",
+			contacto:"",
+			tipo:""
+		}
+	});
+});

@@ -1,0 +1,31 @@
+$(document).ready(function(){
+	$("#user").validate({
+		rules:{
+			user:"required",
+			nombre:"required",
+			perfil:"required",
+			cod_tlf:"required",
+			pass:{
+                required:true,
+                rangelength:[8,100]
+            },
+            repeat:{
+                equalTo:"#pass"
+            },
+            status:"required"
+		},
+		messages:{
+			user:"",
+			nombre:"",
+			perfil:"",
+			pass:{
+                required:"",
+                rangelength:"M&iacute;nimo 8 caracteres"
+            },
+            repeat:{
+                equalTo:"No coinciden las contraseñas"
+            },
+            status:""
+		}
+	});
+});

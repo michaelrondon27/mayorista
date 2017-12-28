@@ -1,0 +1,29 @@
+#msg-box4-2 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-2 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-2 .mbr-article {
+  color: #ffffff;
+}
+#dropdown-menu-2btn-b .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-b .nav .link,
+#dropdown-menu-2btn-b .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-b .navbar,
+#dropdown-menu-2btn-b .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-2btn-b .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-b .dropdown-menu a:hover,
+#dropdown-menu-2btn-b .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-2btn-b .navbar-toggler {
+  color: #ffffff;
+}

@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	$("#form_cotizacion").validate({
+		rules:{
+			cotizacion:"required",
+			empresa:"required",
+			total:"required",
+			datepicker:"required"
+		},
+		messages:{
+			cotizacion:"",
+			empresa:"",
+			total:"",
+			datepicker:""
+		}
+	});
+});
